@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.topImage,
+#bottomImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topImage {
+    background-image: url(./the-matrix-typography-wide.png);
+}
+
+#bottomImage {
+    background-image: url(./matrix.png);
+    left: 50%;
+    background-attachment: fixed;
+    border-left: 3px solid #111;
+}
